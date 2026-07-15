@@ -11,7 +11,8 @@ client = OpenAI(
 import tempfile
 from nltk.tokenize import sent_tokenize
 import re
-
+import nltk
+nltk.download('punkt_tab')
 # -----------------------------------
 # PAGE CONFIG
 # -----------------------------------
