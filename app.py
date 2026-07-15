@@ -6,7 +6,7 @@ import numpy as np
 from openai import OpenAI
 client = OpenAI(
     base_url="https://models.inference.ai.azure.com",
-    api_key=st.secrets["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"]
+    api_key=api_key=st.secrets["GITHUB_TOKEN"]
 )
 import tempfile
 from nltk.tokenize import sent_tokenize
