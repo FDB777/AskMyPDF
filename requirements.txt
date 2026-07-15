@@ -1,7 +1,6 @@
 streamlit
-sentence-transformers==2.7.0
-torch==2.1.0+cpu
---extra-index-url https://download.pytorch.org/whl/cpu
+sentence-transformers
+torch --index-url https://download.pytorch.org/whl/cpu
 pypdf
 faiss-cpu
 openai
