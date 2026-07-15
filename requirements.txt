@@ -6,3 +6,4 @@ faiss-cpu
 openai
 nltk
 numpy
+torchvision --index-url https://download.pytorch.org/whl/cpu
